@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/legacy/image'
-import devZ from '../public/zavator.jpg'
+import devZ from '../public/AmirM.jpg'
 const About = () => {
   return (
     
@@ -12,13 +12,13 @@ const About = () => {
                     </div>
                </div>
                <div className='text-left ml-20 basis-1/2'>
-                    <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-5xl dark:text-teal-400'>Zahra Talaei</h2>
-                    <h3 className='text-2xl py-2 md:text-2xl dark:text-white'>Web Developer</h3>
-                    <p className='text-md py-5 text-gray-800 leading-8 md:text-xl md:px-2 max-w-3xl mx-auto dark:text-gray-200 tracking-wide '>A self-taught and efficient web developer with three years relevant local experience, strong collaboration skills, a keen eye for 
-                    detail and a quick learner. With a background in theoretical physics (mostly computational Physics) which has made her enjoy 
-                    solving problems and handling challenging tasks. Skilled in both individual and team projects. Having worked in multiple 
-                    environments has benefited her with Strong communication and soft skills and experience. Australian Citizen residing in 
-                    Brisbane.
+                    <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-5xl dark:text-teal-400'>Amir Mohammadi</h2>
+                    <h3 className='text-2xl py-2 md:text-2xl dark:text-white'>Data Analyst</h3>
+                    <p className='text-md py-5 text-gray-800 leading-8 md:text-xl md:px-2 max-w-3xl mx-auto dark:text-gray-200 tracking-wide '>A dedicated and resourceful data scientist, I am committed to utilizing data-driven insights to support informed business
+decisions and actions. With a strong background in Statistical Modeling, Machine Learning, Predictive Modeling, Data Mining,
+and SQL, he has successfully applied his analytical skills to a variety of projects across industries such as Energy, IT,
+Financial Services, Banking, Retail, and Consumer Products. I am an effective communicator who simplifies complex ideas for diverse audiences. His enthusiasm for learning and
+researching new topics keeps him up to date with industry advancements.
 
                     </p>
                </div>
