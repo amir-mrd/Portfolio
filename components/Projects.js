@@ -16,43 +16,50 @@ const Projects = () => {
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
             <Image src={Wine_quaity} alt=''/>
             <h3 className='text-2xl font-semibold pt-8 pb-2'>Wine Quality Prediction</h3>
-            <p className='py-2'>A Random Forest Classifier modelling to predict the quality of white wine (vinho verde) based on several features.
-.</p>
-            <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>Logistic Regression, K-NN, SVM, and Decision Tree.</p> 
+            <p className='py-2'>A Random Forest Classifier model to predict the quality of white wine (vinho verde) based on several features.
+            .</p> 
           </div>
           
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-            <a href='https://tmdbmovieapplication.netlify.app/' target="_blank">
+            <a href='https://github.com/amir-mrd/Credit-Fraud-Detection' target="_blank">
               <Image src={credit_card_fraud} alt=''/>
-              <h3 className='text-2xl font-semibold pt-8 pb-2'>Credit Fraud Detection</h3>
+              <h3 className='text-2xl font-semibold pt-8 pb-2'>Credit Card Fraud Detection</h3>
             </a>
-        <p className='py-2'>Building Machine Learning models to predict the possibility of a credit card transaction being a fraudulent on a a hugely imbalanced dataset.</p>
+        <p className='py-2'>Building Machine Learning models to predict the possibility of a credit card transaction being a fraudulent on a hugely imbalanced dataset.</p>
         <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Models: </span>Logistic Regression, K-NN, SVM, and Decision Tree.</p>
       </div>
       <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-        <a href="https://www.yourhospicelottery.org.uk/blog/" target='_blank'>
-        <Image src={yhl} alt=''/>
-        <h3 className='text-2xl font-semibold pt-8 pb-2'>Your Hospice Lottery Blog</h3>
+        <a href="https://github.com/amir-mrd/Breast-Cancer-Prediction-Using-ML" target='_blank'>
+        <Image src={breast_cancer} alt=''/>
+        <h3 className='text-2xl font-semibold pt-8 pb-2'>Breast Cancer Prediction</h3>
         </a>
-        <p className='py-2'>This the blog of Your Hospice Lottery website. It is a Wordpress custom theme created from the scratch.</p>
-        <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>Wordpress, PHP, bootstrap</p>
+        <p className='py-2'>This is a Machine Learning project to predict the chance of having breast cancer based on symptoms.</p>
+        <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Models: </span>Logistic Regression, Decision Tree, Random Forest, K-NN, SVM, Naive Bayes.</p>
       </div>
       <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-        <a href='https://github.com/zahratalaei/FullStackReactExpress' target="_blank">
-        <Image src={FS} alt=''/>
-        <h3 className='text-2xl font-semibold pt-8 pb-2'>Codes Up!</h3>
+        <a href='https://github.com/amir-mrd/Million_News_Headlines' target="_blank">
+        <Image src={News_headlines} alt=''/>
+        <h3 className='text-2xl font-semibold pt-8 pb-2'>Million News Headlines!</h3>
         </a>
-        <p className='py-2'>It is a Full Stack Blog App. Being able to see, add comments and likes the posts you need to have an account and sing in to the app. Only author of the post can edit/delete it. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI  </p>
-        <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>React, JavaScript, React router dom, react-bootstrap, yup, bootstrap, axios, Mui, ExpressJs, bcrypt, JWT, mysql, sequelize, ... </p>
+        <p className='py-2'>What can the headlines from the Australian national broadcaster (the ABC) tell us about the concerns of the Australian public over time.  </p>
+        
       </div>
       
       <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-        <a href='https://main--shappingcart-ts-app.netlify.app/' target="_blank">
-        <Image src={Shopping} alt=''/>
-        <h3 className='text-2xl font-semibold pt-8 pb-2'>Shopping cart app!</h3>
+        <a href='https://github.com/amir-mrd/Predicting-House-Prices-Using-Linear-Regression/' target="_blank">
+        <Image src={house_price} alt=''/>
+        <h3 className='text-2xl font-semibold pt-8 pb-2'>House Price Prediction!</h3>
         </a>
-        <p className='py-2'>It is a shopping cart App which is created by react-typescript. Home page displays different categories. Each category is linked to its products page. This app includes a cart displaying all the selected products with the single price, total price of each item and the total price of cart. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI </p>
-        <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>React, typescript, React router dom, react-bootstrap, bootstrap5, axios </p>
+        <p className='py-2'>Using Linear Regression to model the price of US houses based on their features and location.</p>
+        
+      </div>
+      <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+        <a href='https://github.com/amir-mrd/BOM-Rainfall-Data/' target="_blank">
+        <Image src={rainfall} alt=''/>
+        <h3 className='text-2xl font-semibold pt-8 pb-2'>What's the weatheer like!</h3>
+        </a>
+        <p className='py-2'>Analysing the BOM data for Brisbane and Sydney to predict the chance of rain.</p>
+        
       </div>
     </div>
  </section>
