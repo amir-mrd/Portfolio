@@ -3,7 +3,7 @@ import React from 'react'
 const Skills = () => {
   return (
     <section>
-     <h2 className='text-5xl text-gray-800 py-1 dark:text-white font-bold'>Skills</h2>
+     <h2 className='text-3xl text-gray-800 py-1 dark:text-white font-bold'>Skills</h2>
      <ul className='flex flex-wrap gap-1 m-6'>
           <li className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>Python</li>
           <li className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>R</li>

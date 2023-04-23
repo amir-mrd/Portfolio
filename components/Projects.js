@@ -11,7 +11,7 @@ import Image from 'next/legacy/image'
 const Projects = () => {
   return (
     <section>
-      <h2 className='text-5xl text-gray-800 py-1 dark:text-white font-bold'>Sample Projects</h2>  
+      <h2 className='text-3xl text-gray-800 py-1 dark:text-white font-bold'>Sample Projects</h2>  
         <div className='md:grid md:grid-cols-2 gap-10'>
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
             <Image src={Wine_quaity} alt=''/>
