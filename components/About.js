@@ -16,9 +16,9 @@ const About = () => {
                     <h3 className='text-2xl py-2 md:text-2xl dark:text-white'>Data Analyst</h3>
                     <p className='text-md py-5 text-gray-800 leading-8 md:text-xl md:px-2 max-w-3xl mx-auto dark:text-gray-200 tracking-wide '>A dedicated and resourceful data scientist, I am committed to utilizing data-driven insights to support informed business
 decisions and actions. With a strong background in Statistical Modeling, Machine Learning, Predictive Modeling, Data Mining,
-and SQL, he has successfully applied his analytical skills to a variety of projects across industries such as Energy, IT,
-Financial Services, Banking, Retail, and Consumer Products. I am an effective communicator who simplifies complex ideas for diverse audiences. His enthusiasm for learning and
-researching new topics keeps him up to date with industry advancements.
+and SQL, I have successfully applied his analytical skills to a variety of projects across industries such as Energy, IT,
+Financial Services, Banking, Retail, and Consumer Products. I am an effective communicator who simplifies complex ideas for diverse audiences. My enthusiasm for learning and
+researching new topics keeps me up to date with industry advancements.
 
                     </p>
                </div>
