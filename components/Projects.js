@@ -14,9 +14,9 @@ const Projects = () => {
       <h2 className='text-3xl text-gray-800 py-1 dark:text-white font-bold'>Sample Projects</h2>  
         <div className='md:grid md:grid-cols-2 gap-10'>
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-            <a href='https://github.com/amir-mrd/Wine-Quality-Prediction-Random-Forest' target="_blank"></a>
+            <a href='https://github.com/amir-mrd/Wine-Quality-Prediction-Random-Forest' target="_blank">
               <Image src={Wine_quaity} alt=''/>
-              <h3 className='text-2xl font-semibold pt-8 pb-2'>Wine Quality Prediction</h3>
+              <h3 className='text-2xl font-semibold pt-8 pb-2'>Wine Quality Prediction</h3></a>
             <p className='py-2'>A Random Forest Classifier model to predict the quality of white wine (vinho verde) based on several features.
             .</p> 
           </div>
