@@ -58,9 +58,9 @@ const Projects = () => {
       <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
         <a href='https://github.com/amir-mrd/Time-Series-Using-R/' target="_blank">
         <Image src={Four_Minings} alt=''/>
-        <h3 className='text-2xl font-semibold pt-8 pb-2'>Socks Time Series</h3>
+        <h3 className='text-2xl font-semibold pt-8 pb-2'>Stocks Time Series</h3>
         </a>
-        <p className='py-2'>Analysis and Prediction of BHP stocks price (2015-2021) and compaaringg with three other Australian mining giants using R.</p>
+        <p className='py-2'>Analysis and Prediction of BHP stocks price (2015-2021) and comparision with three other Australian mining giants using R.</p>
         <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Models: </span>Naive Method, ARIMA.</p>
 
       </div>
