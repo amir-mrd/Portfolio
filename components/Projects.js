@@ -6,6 +6,7 @@ import News_headlines from '../public/News_headlines.png'
 import breast_cancer from '../public/breast_cancer.png'
 import rainfall from '../public/rainfall.png'
 import house_price from '../public/house_price.png'
+import Four_Minings from '../public/Four_Minings.png'
 import Image from 'next/legacy/image'
 
 const Projects = () => {
@@ -55,12 +56,13 @@ const Projects = () => {
         
       </div>
       <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-        <a href='https://github.com/amir-mrd/BOM-Rainfall-Data/' target="_blank">
-        <Image src={rainfall} alt=''/>
-        <h3 className='text-2xl font-semibold pt-8 pb-2'>What's the weather like!</h3>
+        <a href='https://github.com/amir-mrd/Time-Series-Using-R/' target="_blank">
+        <Image src={Four_Minings} alt=''/>
+        <h3 className='text-2xl font-semibold pt-8 pb-2'>Socks Time Series</h3>
         </a>
-        <p className='py-2'>Analysing the BOM data for Brisbane and Sydney to predict the chance of rain.</p>
-        
+        <p className='py-2'>Analysis and Prediction of BHP stocks price (2015-2021) and compaaringg with three other Australian mining giants using R.</p>
+        <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Models: </span>Naive Method, ARIMA.</p>
+
       </div>
     </div>
  </section>
